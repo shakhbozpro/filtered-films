@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid #0D6EFD;
+  transition: box-shadow 0.2s ease, border 0.3s ease;
+}
+
+li:hover {
+  border: 1px solid #ffffff;
+  box-shadow: 0 0 8px 5px #0D6EFD;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+img {
+  margin-bottom: 16px;
+}
+
+a {
+  display: inline-block;
+  color: white;
+  padding: 8px 15px;
+  border: 1px solid white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+a:hover {
+  font-weight: 600;
+  background-color: #ffffff;
+}
