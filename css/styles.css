@@ -4,6 +4,25 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.site-main {
+  flex-grow: 1;
+}
+
 li {
   margin-bottom: 30px;
   text-align: center;
