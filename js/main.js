@@ -1,3 +1,5 @@
+AOS.init();
+
 const elSearchForm = document.querySelector(".films-search-form");
 const elSearchInput = elSearchForm.querySelector(".search-input");
 const elSearchBtn = elSearchForm.querySelector(".search-btn");
@@ -34,6 +36,8 @@ function renderFilms(array, element) {
     newFilmsItem.style.width = "380px";
     newFilmsItem.style.padding = "15px 0";
     newFilmsItem.classList.add("text-bg-primary");
+    newFilmsItem.setAttribute("data-aos", "fade-up");
+    newFilmsItem.setAttribute("data-aos-duration", "700");
     newFilmsItem.style.borderRadius = "10px";
     newFilmsImg.style.width = "80%";
     newFilmsImg.style.height = "400px";
