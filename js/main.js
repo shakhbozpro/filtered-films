@@ -60,9 +60,6 @@ function renderFilms(array, element) {
     newFilmsItem.appendChild(newFilmsLink);
     element.appendChild(newFilmsItem);
   })
-
-  // Puting the elements in the ul
-  // element.appendChild(newFilmsItem);
 }
 // renderFilms(films.slice(0, 200), elFilmsList);
 renderFilms(films, elFilmsList);
