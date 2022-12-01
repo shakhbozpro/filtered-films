@@ -1,13 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box
 }
 
 html {
   height: 100%;
   box-sizing: border-box;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth
 }
 
 body {
@@ -16,117 +16,116 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow-x: hidden
 }
 
 .site-header {
-  z-index: 10;
+  z-index: 10
 }
 
 .site-header__wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: column
 }
 
 .site-header__start {
-  margin-bottom: 16px;
+  margin-bottom: 16px
 }
 
 .site-header__end {
   max-width: 780px;
-  width: 100%;
+  width: 100%
 }
 
 .search-input {
-  width: 231px;
+  width: 231px
 }
 
 .form-select {
-  width: 231px;
+  width: 231px
 }
 
 .search-btn {
-  width: 100px;
+  width: 100px
 }
 
 .site-main {
-  flex-grow: 1;
+  flex-grow: 1
 }
 
 li {
   margin-bottom: 30px;
   text-align: center;
   border: 1px solid #0D6EFD;
-  transition: box-shadow 1s ease, border 1s ease;
+  transition: box-shadow 1s ease, border 1s ease
 }
 
 li:hover {
-  border: 1px solid #ffffff;
-  box-shadow: 0 0 8px 5px #0D6EFD;
+  border: 1px solid #fff;
+  box-shadow: 0 0 8px 5px #0D6EFD
 }
 
 p {
-  margin-bottom: 10px;
+  margin-bottom: 10px
 }
 
 img {
-  margin-bottom: 16px;
+  margin-bottom: 16px
 }
 
 button {
   display: inline-block;
   padding: 8px 15px;
-  color: white;
+  color: #fff;
   background-color: transparent;
-  border: 1px solid white;
+  border: 1px solid #fff;
   border-radius: 8px;
   text-decoration: none;
-  transition: background-color 0.2s ease;
+  transition: background-color .2s ease
 }
 
 button:hover {
   font-weight: 600;
   color: #0D6EFD;
   border-color: #0D6EFD;
-  background-color: #ffffff;
+  background-color: #fff
 }
 
-
 .films-wrapper {
-  padding-top: 280px;
+  padding-top: 280px
 }
 
 .modal-dialog {
   max-width: 700px;
-  width: 100%;
+  width: 100%
 }
 
 .modal-img-wrapper {
   width: 333px;
-  margin: 0 auto;
+  margin: 0 auto
 }
 
 @media only screen and (min-width: 768px) {
   .films-wrapper {
-    padding-top: 140px;
+    padding-top: 140px
   }
 
   .modal-img-wrapper {
     margin: 0;
-    margin-right: 30px;
+    margin-right: 30px
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .site-header__wrapper {
-    flex-direction: row;
+    flex-direction: row
   }
 
   .site-header__start {
-    margin-bottom: 0;
+    margin-bottom: 0
   }
 
   .films-wrapper {
-    padding-top: 120px;
+    padding-top: 120px
   }
 }
